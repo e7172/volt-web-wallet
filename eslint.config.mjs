@@ -18,6 +18,9 @@ const eslintConfig = [
 
          // Disable explicit any type warnings
          '@typescript-eslint/no-explicit-any': 'off',
+
+         // Disable warnings about unescaped entities in JSX
+         'react/no-unescaped-entities': 'off',
       },
    },
 ];
